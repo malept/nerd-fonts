@@ -5,7 +5,7 @@ name: Release
 on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
-    branches: [ master ]
+    branches: [ bugfix/symbols-only-font-generation-release ]
     paths-ignore:
       - 'images/**'
       - '**.md'
